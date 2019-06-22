@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Friend Finder</title>
+
+    <!-- Latest compiled and minified CSS & JS -->
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+   <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One&display=swap" rel="stylesheet">
+
+   <script src="https://code.jquery.com/jquery.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+       integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+       crossorigin="anonymous"></script>
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+       crossorigin="anonymous"></script>
+   <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <!-- Add Friends -->
+        <div class="card">
+            <div class="card-header">
+                Survey Questions
+            </div>
+            <div class="card-body">
+                <form role="form">
+                    <div class="form-group">
+                        <label for="name">Name(Required)</label>
+                        <input type="text" class="form-control" id="name">
+                    </div>
+                    <div class="form-group">
+                        <div class="form-group">
+                            <label for="photo">Link to Photo Image(Required)</label>
+                            <input type="text" class="form-control" id=photo>
+                            <div class="form-group">
+                                <label for="question1">Question 1, 1: Strongly Disagree & 5 (Strongly Agree)</label>
+                                <p>You love when your significant other is liked by others.</p>
+                                <div class="form-group">
+                                    <label for="question1">Select</label>
+                                    <select class="form-control" id="question1">
+                                        <option>1</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                        <option>5</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="question2">Question 2</label>
+                                <p>You expect your SO to spend quality time with you (at least 2 days per week).</p>
+                                <div class="form-group">
+                                    <label for="question2">Select</label>
+                                    <select class="form-control" id="question2">
+                                        <option>1</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                        <option>5</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="question3">Question 3</label>
+                                <p>You believe your SO should be athletic.</p>
+                                <div class="form-group">
+                                    <label for="question3">Select</label>
+                                    <select class="form-control" id="question3">
+                                        <option>1</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                        <option>5</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="question4">Question 4</label>
+                                <p>You like being around kids.</p>
+                                <div class="form-group">
+                                    <label for="question4">Select</label>
+                                    <select class="form-control" id="question4">
+                                        <option>1</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                        <option>5</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="question5">Question 5</label>
+                                <p>You prefer physical touch over quality time.</p>
+                                <div class="form-group">
+                                    <label for="question5">Select</label>
+                                    <select class="form-control" id="question5">
+                                        <option>1</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                        <option>5</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="question6">Question 6</label>
+                                <p>Your SO's religious affiliation is important.</p>
+                                <div class="form-group">
+                                    <label for="question6">Select</label>
+                                    <select class="form-control" id="question6">
+                                        <option>1</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                        <option>5</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="question7">Question 7</label>
+                                <p>You think your relationship should involve lots of travel.</p>
+                                <div class="form-group">
+                                    <label for="question7">Select</label>
+                                    <select class="form-control" id="question7">
+                                        <option>1</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                        <option>5</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="question8">Question 8</label>
+                                <p>You believe you and your SO should not go to bed angry.</p>
+                                <div class="form-group">
+                                    <label for="question8">Select</label>
+                                    <select class="form-control" id="question8">
+                                        <option>1</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                        <option>5</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="question9">Question 9</label>
+                                <p>You find it easy to get along with others.</p>
+                                <div class="form-group">
+                                    <label for="question9">Select</label>
+                                    <select class="form-control" id="question9">
+                                        <option>1</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                        <option>5</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="question10">Question 10</label>
+                                <p>You are able to easily socialize with people you meet for the 1st time.</p>
+                                <div class="form-group">
+                                    <label for="question10">Select</label>
+                                    <select class="form-control" id="question10">
+                                        <option>1</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                        <option>5</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary submit" id="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <script type="text/javascript">
+        // In this code below we create the Front-end JavaScript which "POSTS" our form data to our express server.
+        // In essence, when the user hits submit, jQuery grabs all of the fields then sends a post request to our api
+        // Our api recognizes the route (/api/friends)... and then runs the associated code (found in api-routes.js).
+        // In this case the associated code "saves" the data to the frieds.js file 
+
+        $("#submit").on("click", function (event) {
+            event.preventDefault();
+
+            // Here we grab the form elements
+            var newFriend = {
+                name: $("#name").val().trim(),
+                photo: $("#photo").val().trim(),
+                scores: [
+                    $("#question1").val(),
+                    $("#question2").val(),
+                    $("#question3").val(),
+                    $("#question4").val(),
+                    $("#question5").val(),
+                    $("#question6").val(),
+                    $("#question7").val(),
+                    $("#question8").val(),
+                    $("#question9").val(),
+                    $("#question10").val()
+                ]
+            };
+
+            console.log(newFriend);
+
+            // This line is the magic. It"s very similar to the standard ajax function we used.
+            // Essentially we give it a URL, we give it the object we want to send, then we have a "callback".
+            // The callback is the response of the server. In our case, we set up code in api-routes that "returns" true or false
+            // depending on if a tables is available or not.
+
+            $.post("/api/friends", newFriend,
+                function (data) {
+
+                    // If friend is entered... .
+                    if (data) {
+                        alert("A newFriend has been added !");
+                    }
+                    // Clear the form when submitting
+                    $("#name").val("");
+                    $("#photo").val("");
+                    $("#question1").val("");
+                    $("#question2").val("");
+                    $("#question3").val("");
+                    $("#question4").val("");
+                    $("#question5").val("");
+                    $("#question6").val("");
+                    $("#question7").val("");
+                    $("#question8").val("");
+                    $("#question9").val("");
+                    $("#question10").val("");
+                });
+        });
+    </script>
+</body>
+
+</html>

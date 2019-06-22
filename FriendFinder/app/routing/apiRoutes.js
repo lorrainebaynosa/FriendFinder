@@ -18,30 +18,30 @@ module.exports = function(app) {
   // ---------------------------------------------------------------------------
 
   app.get("/api/friends", function(req, res) {
-    res.json(friends);
+    return res.json(friends);
   });
 
   app.post("/api/friends", function(req, res) {
     // Note the code here. Our "server" will respond to requests and let users know if they have friends or not.
-    // It will do this by sending out the value "true" have a table
     // req.body is available since we're using the body parsing middleware
-    if (friends.length < 5) {
       friends.push(req.body);
-      res.json(true);
-    }
-    else {
-      friends.push(req.body);
-      res.json(false);
-    }
+      // for (var i = 0; i <friends.scores.length; i++) {
+    //   var friendsScore = friends.scores[i];
+    //   for (var j= 0; j , newFriend.scores.length; j++){
+    //     var newFriendScore = userScores[j];
+    //   }
+    //   // We calculate the difference between the scores and sum them into the totalDifference
+    //   totalDifference += Math.abs(parseInt(friendsScore) - parseInt(newFriendScore));
+      // res.json(newFriend);
   });
 
   // ---------------------------------------------------------------------------
   // I added this below code so you could clear out the table while working with the functionality.
 
-  app.post("/api/clear", function(req, res) {
-    // Empty out the arrays of data
-    friends.length = [];
+  // app.post("/api/clear", function(req, res) {
+  //   // Empty out the arrays of data
+  //   friends.length = [];
 
-    res.json({ ok: true });
-  });
+  //   res.json({ ok: true });
+  // });
 };
