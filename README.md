@@ -3,6 +3,22 @@ FriendFinder is a compatibility-based application used to find dates or best mat
 
 Express will be used to handle routing. Make sure you deploy your app to Heroku so other users can fill it out.
 
+In order to test this code using nodemon, ensure you are in the root directory of the server.js file and run nodemon server.js so you don't have to restart and reload the server with each change/client input.
+
+<img src="images/nodemon_FriendFinder.jpg" width="800">
+![](images/nodemon_FriendFinder.jpg)
+
+
+Have your dependencies for express in your package.json file:
+
+
+
+<img src="images/FriendFinder_dependencies.jpg" width="800">
+![](images/FriendFinder_dependencies.jpg)
+
+
+HTML GET requests to http://localhost:3000/home render the home survey page to the user:
+
 1. The survey has 10 questions of your choosing. Each answer should be on a scale of 1 to 5 based on how much the user agrees or disagrees with a question.
 
 2. The `server.js` file requires the basic npm packages `express` and `path`.
