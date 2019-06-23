@@ -25,11 +25,11 @@ module.exports = function (app) {
     // Note the code here. Our "server" will respond to requests and let users know if they have friends or not.
     // req.body is available since we're using the body parsing middleware
     var userInput = req.body;
-    userInput = {
-      name: req.body.name,
-      photo: req.body.photo,
-      scores: req.body.scores
-    }
+    // userInput = {
+    //   name: req.body.name,
+    //   photo: req.body.photo,
+    //   scores: req.body.scores
+    // }
 
     var totalDifference = 0;
     var compatibility = [];
@@ -49,9 +49,10 @@ module.exports = function (app) {
     // The indexOf() method returns the first index at which a given element 
     // can be found in the array.
     var matchIndex = compatibility.indexOf(bestMatch)
-    console.log(matchIndex);
+    console.log("Match Index:" + matchIndex);
     console.log("Compatibility:" + compatibility);
     friends.push(req.body);
+    res.json(friends[matchIndex]);
   });
 }
   

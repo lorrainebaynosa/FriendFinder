@@ -1,8 +1,8 @@
 var friends = 
 [
 {
-    name:"Ahmed",
-    photo:"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+    name:"Will",
+    photo:"https://www.biography.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cg_face%2Cq_auto:good%2Cw_300/MTE4MDAzNDEwNzQzMTY2NDc4/will-smith-9542165-1-402.jpg",
     scores:[
         5,
         1,
@@ -18,7 +18,7 @@ var friends =
   },
   {
     name:"Richard",
-    photo:"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+    photo:"https://i.pinimg.com/originals/0f/b9/cd/0fb9cd1fe7f8aab3133663bf6d56f997.jpg",
     scores:[
         3,
         2,
@@ -33,8 +33,8 @@ var friends =
       ]
   },
   {
-    name:"Jacob",
-    photo:"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+    name:"Mark",
+    photo:"https://www.biography.com/.image/t_share/MTE1ODA0OTcxODYwOTg1MzU3/mark-wahlberg-9542335-1-402.jpg",
     scores:[
         3,
         1,
@@ -49,8 +49,8 @@ var friends =
       ]
   },
   {
-    name:"Mark",
-    photo:"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+    name:"John",
+    photo:"https://www.biography.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cg_face%2Cq_auto:good%2Cw_300/MTE5NTU2MzE2NDc2NzA0MjY3/john-stamos-10073503-1-402.jpg",
     scores:[
         5,
         1,
