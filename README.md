@@ -5,16 +5,19 @@ Express will be used to handle routing. Make sure you deploy your app to Heroku 
 
 In order to test this code using nodemon, ensure you are in the root directory of the server.js file and run nodemon server.js so you don't have to restart and reload the server with each change/client input.
 
-<img src="images/nodemon_FriendFinder.jpg" width="800">
-![](images/nodemon_FriendFinder.jpg)
+<img src="images/nodemon.jpg" width="800">
+![](images/nodemon.jpg)
+
+
+
 
 
 Have your dependencies for express in your package.json file:
 
 
 
-<img src="images/FriendFinder_dependencies.jpg" width="800">
-![](images/FriendFinder_dependencies.jpg)
+<img src="images/dependencies.jpg" width="800">
+![](images/dependencies.jpg)
 
 
 HTML GET requests to http://localhost:3000/home render the home survey page to the user:
