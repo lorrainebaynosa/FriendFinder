@@ -1,5 +1,5 @@
 # FriendFinder
-FriendFinder is a compatibility-based application used to find dates or best matches for people based on minimum differences on scores to selected questions. This full-stack site takes in results from users' surveys, then compare their answers with those from other users. The app will then display the name and picture of the user with the best overall match.
+FriendFinder is a compatibility-based application used to find dates or best matches for people based on minimum differences in scores to selected questions. This full-stack site takes in results from users' surveys, then compares their answers with those from other users. The app will then display the name and picture of the user with the best overall match.
 
 Express will be used to handle routing. Make sure you deploy your app to Heroku so other users can fill it out.
 
