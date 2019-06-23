@@ -5,7 +5,7 @@ Express will be used to handle routing. Make sure you deploy your app to Heroku 
 
 In order to test this code using nodemon, ensure you are in the root directory of the server.js file and run nodemon server.js so you don't have to restart and reload the server with each change/client input.
 
-<img src="images/nodemon.jpg" width="800">
+<img src="FriendFinder/images/nodemon.jpg" width="800">
 ![](images/nodemon.jpg)
 
 
@@ -16,7 +16,7 @@ Have your dependencies for express in your package.json file:
 
 
 
-<img src="images/dependencies.jpg" width="800">
+<img src="FriendFinder/images/dependencies.jpg" width="800">
 ![](images/dependencies.jpg)
 
 
