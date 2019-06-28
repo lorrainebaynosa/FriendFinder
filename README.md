@@ -5,8 +5,8 @@ Express will be used to handle routing. The app is deployed to Heroku so other u
 
 In order to test this code using nodemon, ensure you are in the root directory of the server.js file and run nodemon server.js so you don't have to restart and reload the server with each change/client input.
 
-<img src="FriendFinder/images/nodemon.jpg" width="800">
-![](FriendFinder/images/nodemon.jpg)
+<img src="images/nodemon.jpg" width="800">
+![](images/nodemon.jpg)
 
 
 
@@ -16,8 +16,8 @@ Have your dependencies for express in your package.json file:
 
 
 
-<img src="FriendFinder/images/dependencies.jpg" width="800">
-![](FriendFinder/images/dependencies.jpg)
+<img src="images/dependencies.jpg" width="800">
+![](images/dependencies.jpg)
 
 
 HTML GET requests to http://localhost:3000/ render the survey home page to the user (this is the default page if path survey is not entered):
@@ -25,8 +25,8 @@ HTML GET requests to http://localhost:3000/ render the survey home page to the u
 
 
 
-<img src="FriendFinder/images/home.jpg" width="800">
-![](FriendFinder/images/home.jpg)
+<img src="images/home.jpg" width="800">
+![](images/home.jpg)
 
 
 
@@ -36,8 +36,8 @@ URL http://localhost:3000/survey brings the user to the survey page. The user mu
 
 
 
-<img src="FriendFinder/images/survey.jpg" width="800">
-![](FriendFinder/images/survey.jpg)
+<img src="images/survey.jpg" width="800">
+![](images/survey.jpg)
 
 
 
@@ -49,8 +49,8 @@ When the user submits the survey, the POST route "/api/friends" handles the resu
 
 
 
-<img src="FriendFinder/images/modal.jpg" width="800">
-![](FriendFinder/images/modal.jpg)
+<img src="images/modal.jpg" width="800">
+![](images/modal.jpg)
 
 
 Here's what's occuring prior to receiving a response from the server:
@@ -58,8 +58,8 @@ An array of "friends" objects is stored inside of `app/data/friends.js` as an ar
 
 
 
-<img src="FriendFinder/images/friends_objects.jpg" width="800">
-![](FriendFinder/images/friends_objects.jpg)
+<img src="images/friends_objects.jpg" width="800">
+![](images/friends_objects.jpg)
 
 
 The user's most compatible friend is determined using the following as a guide:
